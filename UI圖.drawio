@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T02:44:10.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="7PZ57mi-ryb8PVvpsOFQ" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T02:45:50.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="EIafqALhSnLJ2SUdUBvW" version="14.2.9" type="github">
   <diagram id="j5eENNFuExUJalh9vrai" name="瀏覽地圖－UI圖">
-    <mxGraphModel dx="1108" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="665" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-51" value="4.瀏覽地圖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1peLIf2quNtcG3wsu8pr-49">
           <mxGeometry x="0.2405" y="2" relative="1" as="geometry">
-            <mxPoint x="26.529999999999998" y="-8" as="offset" />
+            <mxPoint x="14.999999999999998" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CQ5wD38VRIrhaRrIlDyT-29" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" parent="1" vertex="1">
@@ -154,7 +154,7 @@
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-81" value="9.瀏覽地圖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1peLIf2quNtcG3wsu8pr-79">
           <mxGeometry x="0.1762" y="1" relative="1" as="geometry">
-            <mxPoint x="38.76" y="-12" as="offset" />
+            <mxPoint x="19.999999999999996" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CQ5wD38VRIrhaRrIlDyT-55" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" parent="1" vertex="1">
@@ -185,7 +185,7 @@
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-13" value="14.瀏覽地圖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1peLIf2quNtcG3wsu8pr-8">
           <mxGeometry x="0.2487" y="-2" relative="1" as="geometry">
-            <mxPoint x="33.349999999999994" y="-12" as="offset" />
+            <mxPoint x="13.999999999999993" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
@@ -247,7 +247,7 @@
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-33" value="17.瀏覽地圖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1peLIf2quNtcG3wsu8pr-28">
           <mxGeometry x="0.1622" y="2" relative="1" as="geometry">
-            <mxPoint x="43.94" y="-8" as="offset" />
+            <mxPoint x="20.999999999999996" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-26" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
@@ -456,7 +456,7 @@
         </mxCell>
         <mxCell id="1peLIf2quNtcG3wsu8pr-113" value="1.瀏覽地圖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1peLIf2quNtcG3wsu8pr-112">
           <mxGeometry x="0.2405" y="2" relative="1" as="geometry">
-            <mxPoint x="24.529999999999998" y="-8" as="offset" />
+            <mxPoint x="13.999999999999998" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
