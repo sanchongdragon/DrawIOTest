@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T02:05:24.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="dEibBgLvR54Rx_4yqSKd" version="14.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-10T03:05:56.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="1KyMmTLmaFkODU3A4fwQ" version="14.4.6" type="github" pages="3">
   <diagram id="j5eENNFuExUJalh9vrai" name="瀏覽地圖－UI圖">
     <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1131,10 +1131,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hxAkUmyRJJvbOSL95kS-" name="類別圖">
-    <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6qpqvQPa0ugjFW-IbjgJ-0" />
         <mxCell id="6qpqvQPa0ugjFW-IbjgJ-1" parent="6qpqvQPa0ugjFW-IbjgJ-0" />
+        <mxCell id="V13jliPTRWfuG2l6EanN-0" value="顯示地圖" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+          <mxGeometry x="270" y="570" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-0">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-3" value="載入預設地圖()&#xa;載入篩選後地圖()&#xa;載入搜尋後地圖()&#xa;載入露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-0">
+          <mxGeometry y="34" width="160" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-4" value="露營地資訊" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+          <mxGeometry x="490" y="380" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-5" value="露營地名稱&#xa;露營地地址&#xa;露營地經度&#xa;露營地緯度&#xa;露營地電話&#xa;露營地圖片&#xa;露營地簡介" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-7" value="儲存露營地資訊()&#xa;讀取露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
+          <mxGeometry y="148" width="160" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
