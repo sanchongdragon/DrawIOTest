@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T03:05:56.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="1KyMmTLmaFkODU3A4fwQ" version="14.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-10T03:10:40.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="N14gcxDhMhlwZOwvPJEC" version="14.4.6" type="github" pages="3">
   <diagram id="j5eENNFuExUJalh9vrai" name="瀏覽地圖－UI圖">
     <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1155,6 +1155,18 @@
         </mxCell>
         <mxCell id="V13jliPTRWfuG2l6EanN-7" value="儲存露營地資訊()&#xa;讀取露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
           <mxGeometry y="148" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-8" value="篩選器UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+          <mxGeometry x="130" y="380" width="80" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-9" value="費用&#xa;能否帶寵物&#xa;衛浴設施&#xa;周圍環境&#xa;周邊訊號&#xa;周邊設施&#xa;特殊限制&#xa;特殊區域" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-8">
+          <mxGeometry y="26" width="80" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-8">
+          <mxGeometry y="150" width="80" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="V13jliPTRWfuG2l6EanN-11" value="篩選條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-8">
+          <mxGeometry y="158" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
