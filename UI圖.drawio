@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T08:21:17.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="rcMDvrB2ksd2BM-giPha" version="14.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-16T05:02:59.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="BZg8_bb2BrZ5-jq-CEzh" version="14.4.7" type="github" pages="3">
   <diagram id="j5eENNFuExUJalh9vrai" name="瀏覽地圖－UI圖">
-    <mxGraphModel dx="782" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -667,7 +667,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ztg1LIHiOO5wI2lIBXtR" name="瀏覽地圖 - AC圖">
-    <mxGraphModel dx="1944" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="T72lsXVJk4m4dzBVS0JX-0" />
         <mxCell id="T72lsXVJk4m4dzBVS0JX-1" parent="T72lsXVJk4m4dzBVS0JX-0" />
@@ -1131,135 +1131,150 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hxAkUmyRJJvbOSL95kS-" name="類別圖">
-    <mxGraphModel dx="920" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6qpqvQPa0ugjFW-IbjgJ-0" />
         <mxCell id="6qpqvQPa0ugjFW-IbjgJ-1" parent="6qpqvQPa0ugjFW-IbjgJ-0" />
-        <mxCell id="V13jliPTRWfuG2l6EanN-0" value="&lt;Control&gt;&#xa;顯示地圖" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
-          <mxGeometry x="330" y="570" width="120" height="114" as="geometry" />
+        <mxCell id="V13jliPTRWfuG2l6EanN-0" value="&lt;Control&gt;&#xa;顯示地圖" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
+          <mxGeometry x="330" y="640" width="120" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-0">
+        <mxCell id="V13jliPTRWfuG2l6EanN-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-0" vertex="1">
           <mxGeometry y="40" width="120" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-3" value="+ 載入預設地圖()&#xa;+ 載入篩選後地圖()&#xa;+ 載入搜尋後地圖()&#xa;+ 載入露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-0">
+        <mxCell id="V13jliPTRWfuG2l6EanN-3" value="+ 載入預設地圖()&#xa;+ 載入篩選後地圖()&#xa;+ 載入搜尋後地圖()&#xa;+ 載入露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-0" vertex="1">
           <mxGeometry y="48" width="120" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-4" value="&lt;Entity&gt;&#xa;露營地資訊" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+        <mxCell id="V13jliPTRWfuG2l6EanN-4" value="&lt;Entity&gt;&#xa;露營地資訊" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
           <mxGeometry x="590" y="525" width="120" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-5" value="- 營地名稱&#xa;- 顯示圖片&#xa;- 地標類型&#xa;- 地址&#xa;- 電話&#xa;- 網站&#xa;- 電子郵件&#xa;- 粉絲頁&#xa;- 文字描述&#xa;- 營地特性&#xa;- 一週天氣&#xa;- 評分評論&#xa;- 照片圖庫" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
+        <mxCell id="V13jliPTRWfuG2l6EanN-5" value="- 營地名稱&#xa;- 顯示圖片&#xa;- 地標類型&#xa;- 地址&#xa;- 電話&#xa;- 網站&#xa;- 電子郵件&#xa;- 粉絲頁&#xa;- 文字描述&#xa;- 營地特性&#xa;- 一週天氣&#xa;- 評分評論&#xa;- 照片圖庫" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-4" vertex="1">
           <mxGeometry y="40" width="120" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
+        <mxCell id="V13jliPTRWfuG2l6EanN-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-4" vertex="1">
           <mxGeometry y="230" width="120" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-7" value="+ 儲存露營地資訊()&#xa;+ 讀取露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-4">
+        <mxCell id="V13jliPTRWfuG2l6EanN-7" value="+ 儲存露營地資訊()&#xa;+ 讀取露營地資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-4" vertex="1">
           <mxGeometry y="238" width="120" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-8" value="&lt;Boundary&gt;&#xa;篩選器UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
-          <mxGeometry x="70" y="350" width="100" height="198" as="geometry" />
+        <mxCell id="V13jliPTRWfuG2l6EanN-8" value="&lt;Boundary&gt;&#xa;篩選器UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
+          <mxGeometry x="70" y="270" width="100" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-9" value="- 我的最愛&#xa;- 地標類型&#xa;- 營地特性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-8">
-          <mxGeometry y="40" width="100" height="124" as="geometry" />
+        <mxCell id="V13jliPTRWfuG2l6EanN-9" value="- 我的最愛&#xa;- 地標類型&#xa;- 營地特性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-8" vertex="1">
+          <mxGeometry y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-8">
-          <mxGeometry y="164" width="100" height="8" as="geometry" />
+        <mxCell id="V13jliPTRWfuG2l6EanN-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-8" vertex="1">
+          <mxGeometry y="100" width="100" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-11" value="+ 篩選條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-8">
-          <mxGeometry y="172" width="100" height="26" as="geometry" />
+        <mxCell id="V13jliPTRWfuG2l6EanN-11" value="+ 回傳篩選條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-8" vertex="1">
+          <mxGeometry y="108" width="100" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-12" value="&lt;Boundary&gt;&#xa;搜尋器UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+        <mxCell id="V13jliPTRWfuG2l6EanN-12" value="&lt;Boundary&gt;&#xa;搜尋器UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
           <mxGeometry x="70" y="576" width="100" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-13" value="- 鄉鎮搜尋&#xa;- 關鍵字搜尋" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-12">
+        <mxCell id="V13jliPTRWfuG2l6EanN-13" value="- 鄉鎮搜尋&#xa;- 關鍵字搜尋" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-12" vertex="1">
           <mxGeometry y="35" width="100" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-12">
+        <mxCell id="V13jliPTRWfuG2l6EanN-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-12" vertex="1">
           <mxGeometry y="79" width="100" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="V13jliPTRWfuG2l6EanN-15" value="+ 篩選條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V13jliPTRWfuG2l6EanN-12">
+        <mxCell id="V13jliPTRWfuG2l6EanN-15" value="+ 回傳搜尋結果()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="V13jliPTRWfuG2l6EanN-12" vertex="1">
           <mxGeometry y="87" width="100" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M7uiXRXByrYwYp9Kd9F8-3" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-9" target="eHUHFfAUO02dHQLQUFOl-2">
+        <mxCell id="M7uiXRXByrYwYp9Kd9F8-3" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-9" target="eHUHFfAUO02dHQLQUFOl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="730" as="sourcePoint" />
             <mxPoint x="373.29999999999995" y="842.182" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eHUHFfAUO02dHQLQUFOl-0" value="&lt;Control&gt;&#xa;篩選器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+        <mxCell id="eHUHFfAUO02dHQLQUFOl-0" value="&lt;Control&gt;&#xa;篩選器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
           <mxGeometry x="260" y="350" width="120" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="eHUHFfAUO02dHQLQUFOl-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="eHUHFfAUO02dHQLQUFOl-0">
+        <mxCell id="eHUHFfAUO02dHQLQUFOl-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="eHUHFfAUO02dHQLQUFOl-0" vertex="1">
           <mxGeometry y="40" width="120" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="eHUHFfAUO02dHQLQUFOl-2" value="+ 篩選條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eHUHFfAUO02dHQLQUFOl-0">
+        <mxCell id="eHUHFfAUO02dHQLQUFOl-2" value="+ 篩選條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="eHUHFfAUO02dHQLQUFOl-0" vertex="1">
           <mxGeometry y="48" width="120" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="eHUHFfAUO02dHQLQUFOl-3" value="&lt;Control&gt;&#xa;搜尋器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+        <mxCell id="eHUHFfAUO02dHQLQUFOl-3" value="&lt;Control&gt;&#xa;搜尋器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
           <mxGeometry x="450" y="350" width="120" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="eHUHFfAUO02dHQLQUFOl-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="eHUHFfAUO02dHQLQUFOl-3">
+        <mxCell id="eHUHFfAUO02dHQLQUFOl-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="eHUHFfAUO02dHQLQUFOl-3" vertex="1">
           <mxGeometry y="40" width="120" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="eHUHFfAUO02dHQLQUFOl-5" value="+ 搜尋條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eHUHFfAUO02dHQLQUFOl-3">
+        <mxCell id="eHUHFfAUO02dHQLQUFOl-5" value="+ 搜尋條件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="eHUHFfAUO02dHQLQUFOl-3" vertex="1">
           <mxGeometry y="48" width="120" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="K2WQW70ohvugektuHL64-0" value="&lt;Boundary&gt;&#xa;露營地資訊UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
-          <mxGeometry x="70" y="710" width="100" height="264" as="geometry" />
+        <mxCell id="K2WQW70ohvugektuHL64-0" value="&lt;Boundary&gt;&#xa;露營地資訊UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
+          <mxGeometry x="70" y="710" width="100" height="238" as="geometry" />
         </mxCell>
-        <mxCell id="K2WQW70ohvugektuHL64-1" value="- 營地名稱&#xa;- 顯示圖片&#xa;- 地標類型&#xa;- 地址&#xa;- 電話&#xa;- 網站&#xa;- 電子郵件&#xa;- 粉絲頁&#xa;- 文字描述&#xa;- 營地特性&#xa;- 一週天氣&#xa;- 評分評論&#xa;- 照片圖庫" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K2WQW70ohvugektuHL64-0">
+        <mxCell id="K2WQW70ohvugektuHL64-1" value="- 營地名稱&#xa;- 顯示圖片&#xa;- 地標類型&#xa;- 地址&#xa;- 電話&#xa;- 網站&#xa;- 電子郵件&#xa;- 粉絲頁&#xa;- 文字描述&#xa;- 營地特性&#xa;- 一週天氣&#xa;- 評分評論&#xa;- 照片圖庫" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K2WQW70ohvugektuHL64-0" vertex="1">
           <mxGeometry y="40" width="100" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="K2WQW70ohvugektuHL64-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K2WQW70ohvugektuHL64-0">
+        <mxCell id="K2WQW70ohvugektuHL64-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K2WQW70ohvugektuHL64-0" vertex="1">
           <mxGeometry y="230" width="100" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K2WQW70ohvugektuHL64-3" value="+ 顯示資訊()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K2WQW70ohvugektuHL64-0">
-          <mxGeometry y="238" width="100" height="26" as="geometry" />
+        <mxCell id="a3qG49nFbBFMfZWE4Npl-0" value="&lt;Control&gt;&#xa;串接API" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="6qpqvQPa0ugjFW-IbjgJ-1" vertex="1">
+          <mxGeometry x="330" y="820" width="120" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="a3qG49nFbBFMfZWE4Npl-0" value="&lt;Control&gt;&#xa;串接API" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
-          <mxGeometry x="330" y="750" width="120" height="114" as="geometry" />
-        </mxCell>
-        <mxCell id="a3qG49nFbBFMfZWE4Npl-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="a3qG49nFbBFMfZWE4Npl-0">
+        <mxCell id="a3qG49nFbBFMfZWE4Npl-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="a3qG49nFbBFMfZWE4Npl-0" vertex="1">
           <mxGeometry y="40" width="120" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="a3qG49nFbBFMfZWE4Npl-2" value="+ 傳送資料給API()&#xa;+ 取得回傳資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="a3qG49nFbBFMfZWE4Npl-0">
+        <mxCell id="a3qG49nFbBFMfZWE4Npl-2" value="+ 傳送資料給API()&#xa;+ 取得回傳資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="a3qG49nFbBFMfZWE4Npl-0" vertex="1">
           <mxGeometry y="48" width="120" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="t0VGag4VuSiCsFrFdPnh-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="eHUHFfAUO02dHQLQUFOl-2" target="V13jliPTRWfuG2l6EanN-5">
+        <mxCell id="t0VGag4VuSiCsFrFdPnh-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="eHUHFfAUO02dHQLQUFOl-2" target="V13jliPTRWfuG2l6EanN-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="490" as="sourcePoint" />
             <mxPoint x="510" y="480.54999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="djktx_TRHiaP2wh5vqB6-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-5" target="a3qG49nFbBFMfZWE4Npl-0">
+        <mxCell id="djktx_TRHiaP2wh5vqB6-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-5" target="a3qG49nFbBFMfZWE4Npl-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="630" as="sourcePoint" />
             <mxPoint x="610" y="620.55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-E155Q5Cj4JRxj0oPHk-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-13" target="eHUHFfAUO02dHQLQUFOl-5">
+        <mxCell id="7-E155Q5Cj4JRxj0oPHk-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-13" target="eHUHFfAUO02dHQLQUFOl-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="610" as="sourcePoint" />
             <mxPoint x="330" y="600.55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-E155Q5Cj4JRxj0oPHk-1" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="eHUHFfAUO02dHQLQUFOl-5" target="V13jliPTRWfuG2l6EanN-5">
+        <mxCell id="7-E155Q5Cj4JRxj0oPHk-1" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="eHUHFfAUO02dHQLQUFOl-5" target="V13jliPTRWfuG2l6EanN-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="480" as="sourcePoint" />
             <mxPoint x="610" y="470.54999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-E155Q5Cj4JRxj0oPHk-2" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-3" target="K2WQW70ohvugektuHL64-1">
+        <mxCell id="7-E155Q5Cj4JRxj0oPHk-2" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="V13jliPTRWfuG2l6EanN-3" target="K2WQW70ohvugektuHL64-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="700" as="sourcePoint" />
             <mxPoint x="370" y="690.55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVmMkHkDrSj-nx4IEnfw-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="a3qG49nFbBFMfZWE4Npl-0" target="V13jliPTRWfuG2l6EanN-3">
+        <mxCell id="lVmMkHkDrSj-nx4IEnfw-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="a3qG49nFbBFMfZWE4Npl-0" target="V13jliPTRWfuG2l6EanN-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="700" as="sourcePoint" />
             <mxPoint x="560" y="690.55" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pCddKJv8vHrxeATOVTw9-0" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="6qpqvQPa0ugjFW-IbjgJ-1" source="pCddKJv8vHrxeATOVTw9-2" target="V13jliPTRWfuG2l6EanN-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="468.4716981132076" as="sourcePoint" />
+            <mxPoint x="290" y="510.95000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCddKJv8vHrxeATOVTw9-2" value="&lt;Boundary&gt;&#xa;瀏覽地圖UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="6qpqvQPa0ugjFW-IbjgJ-1">
+          <mxGeometry x="70" y="420" width="100" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="pCddKJv8vHrxeATOVTw9-3" value="- 地標圖示&#xa;- 地圖縮放&#xa;- 全螢幕&#xa;- 放置街景小人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pCddKJv8vHrxeATOVTw9-2">
+          <mxGeometry y="40" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pCddKJv8vHrxeATOVTw9-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pCddKJv8vHrxeATOVTw9-2">
+          <mxGeometry y="110" width="100" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pCddKJv8vHrxeATOVTw9-5" value="+ 顯示地圖()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pCddKJv8vHrxeATOVTw9-2">
+          <mxGeometry y="118" width="100" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
